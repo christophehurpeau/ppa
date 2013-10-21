@@ -1,0 +1,2 @@
+[org.gnome.desktop.default-applications.terminal]
+exec='gnome-terminal.singleInstance'

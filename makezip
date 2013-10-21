@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# http://tldp.org/LDP/abs/html/sample-bashrc.html
+zip -r "${1%%/}.zip" "$1"

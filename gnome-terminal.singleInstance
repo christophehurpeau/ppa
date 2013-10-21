@@ -1,0 +1,3 @@
+#!/bin/sh
+
+open-or-focus gnome-terminal $*

@@ -1,0 +1,21 @@
+#!/bin/sh
+
+. /var/lib/christophe-hurpeau/ch-common.lib
+sudoIfNotRoot
+
+# sudo apt-get update && sudo apt-get dist-upgrade && sudo apt-get autoremove --purge && sudo apt-get autoclean
+which monit && service monit stop
+displayTitle "Updating"
+apt-fast update -qq
+displayTitle "Upgrading"
+apt-fast dist-upgrade
+if [ $? = 0 ]; then
+	displayTitle "Cleaning"
+	apt-fast autoremove --purge && apt-fast autoclean
+	displayTitle "Updating pecl"
+	which pecl && pecl upgrade-all
+	displayTitle "Updating pear"
+	which pear && pear upgrade-all
+fi
+
+which monit && service monit restart

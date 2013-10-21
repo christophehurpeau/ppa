@@ -1,0 +1,2 @@
+gnome-terminal.singleInstance /usr/bin
+org.gnome.desktop.default-applications.terminal.gschema.override usr/share/glib-2.0/schemas/

@@ -1,0 +1,245 @@
+churpeau (1.4.11~raring) raring; urgency=low
+
+  * make dependency
+
+ -- Christophe Hurpeau <christophe@hurpeau.com>  Wed, 02 Oct 2013 18:33:41 +0200
+
+churpeau (1.4.10~raring) raring; urgency=low
+
+  * gnome-terminal.singleInstance
+
+ -- Christophe Hurpeau <christophe@hurpeau.com>  Tue, 24 Sep 2013 15:36:07 +0200
+
+churpeau (1.4.9~precise) precise; urgency=high
+
+  * folder conf-available not conf.available
+
+ -- Christophe Hurpeau <christophe@hurpeau.com>  Fri, 23 Aug 2013 14:32:10 +0200
+
+churpeau (1.4.8~precise) precise; urgency=high
+
+  * new apache configuration system
+
+ -- Christophe Hurpeau <christophe@hurpeau.com>  Fri, 23 Aug 2013 14:11:49 +0200
+
+churpeau (1.4.7~precise) precise; urgency=low
+
+  * precise package
+
+ -- Christophe Hurpeau <christophe@hurpeau.com>  Thu, 08 Aug 2013 14:38:50 +0200
+
+churpeau (1.4.7~raring) raring; urgency=low
+
+  * bug in postinstall script for ch-config
+
+ -- Christophe Hurpeau <christophe@hurpeau.com>  Thu, 08 Aug 2013 14:38:11 +0200
+
+churpeau (1.4.6~raring) raring; urgency=low
+
+  * open-or-focus bug + upgrade script : stop if upgrade didn't work
+
+ -- Christophe Hurpeau <christophe@hurpeau.com>  Thu, 08 Aug 2013 12:45:05 +0200
+
+churpeau (1.4.4~raring) raring; urgency=low
+
+  * gnome-terminal.singleInstance for unity
+
+ -- Christophe Hurpeau <christophe@hurpeau.com>  Wed, 07 Aug 2013 16:59:37 +0200
+
+churpeau (1.4.3~precise) precise; urgency=low
+
+  * upgrade script : quiet update
+
+ -- Christophe Hurpeau <christophe@hurpeau.com>  Fri, 12 Jul 2013 13:42:10 +0200
+
+churpeau (1.4.3~raring) raring; urgency=low
+
+  * upgrade script : quiet update
+
+ -- Christophe Hurpeau <christophe@hurpeau.com>  Fri, 12 Jul 2013 13:41:10 +0200
+
+churpeau (1.4.2~raring) raring; urgency=low
+
+  * bug ch-server preinstall script
+
+ -- Christophe Hurpeau <christophe@hurpeau.com>  Thu, 04 Jul 2013 18:33:15 +0200
+
+churpeau (1.4.2~precise) precise; urgency=high
+
+  * bug ch-server preinstall script
+
+ -- Christophe Hurpeau <christophe@hurpeau.com>  Thu, 04 Jul 2013 18:13:24 +0200
+
+churpeau (1.4.1~raring) raring; urgency=medium
+
+  * use /usr/sbin
+
+ -- Christophe Hurpeau <christophe@hurpeau.com>  Fri, 07 Jun 2013 09:19:34 +0200
+
+churpeau (1.4~raring) raring; urgency=medium
+
+  * gnome terminal single instance
+
+ -- Christophe Hurpeau <christophe@hurpeau.com>  Fri, 07 Jun 2013 08:48:38 +0200
+
+churpeau (1.3.7~raring~ppa1) raring; urgency=low
+
+  * scripts
+
+ -- Christophe Hurpeau <christophe@hurpeau.com>  Wed, 22 May 2013 10:16:02 +0200
+
+churpeau (1.3.7~precise~ppa1) precise; urgency=low
+
+  * scripts
+
+ -- Christophe Hurpeau <christophe@hurpeau.com>  Wed, 22 May 2013 10:15:24 +0200
+
+churpeau (1.3.6~precise~ppa2) precise; urgency=low
+
+  * config mail
+
+ -- Christophe Hurpeau <christophe@hurpeau.com>  Tue, 21 May 2013 15:40:17 +0200
+
+churpeau (1.3.6~precise~ppa1) precise; urgency=medium
+
+  * bug preinst script
+
+ -- Christophe Hurpeau <christophe@hurpeau.com>  Tue, 21 May 2013 15:06:00 +0200
+
+churpeau (1.3.5~precise~ppa1) precise; urgency=medium
+
+  * email config
+
+ -- Christophe Hurpeau <christophe@hurpeau.com>  Tue, 21 May 2013 13:37:11 +0200
+
+churpeau (1.3.4~precise~ppa1) precise; urgency=low
+
+  * fail2ban
+
+ -- Christophe Hurpeau <christophe@hurpeau.com>  Tue, 21 May 2013 10:13:05 +0200
+
+churpeau (1.3.3~precise~ppa4) precise; urgency=low
+
+  * upgrade script bug
+
+ -- Christophe Hurpeau <christophe@hurpeau.com>  Fri, 17 May 2013 15:28:30 +0200
+
+churpeau (1.3.3~raring~ppa3) raring; urgency=medium
+
+  * upgrade script bug
+
+ -- Christophe Hurpeau <christophe@hurpeau.com>  Fri, 17 May 2013 15:27:42 +0200
+
+churpeau (1.3.3~raring~ppa2) raring; urgency=high
+
+  * Old package churpeau
+
+ -- Christophe Hurpeau <christophe@hurpeau.com>  Fri, 17 May 2013 15:05:47 +0200
+
+churpeau (1.3.3~raring~ppa1) raring; urgency=low
+
+  * ch-common.lib
+
+ -- Christophe Hurpeau <christophe@hurpeau.com>  Thu, 16 May 2013 13:51:03 +0200
+
+churpeau (1.3.3~precise~ppa1) precise; urgency=low
+
+  * ch-common.lib
+
+ -- Christophe Hurpeau <christophe@hurpeau.com>  Thu, 16 May 2013 13:49:35 +0200
+
+churpeau (1.3.2~precise~ppa1) precise; urgency=low
+
+  * mv /root/.bashrc /root/.bashrc.old
+
+ -- Christophe Hurpeau <christophe@hurpeau.com>  Mon, 13 May 2013 15:43:48 +0200
+
+churpeau (1.3.1~precise~ppa6) precise; urgency=medium
+
+  * error ch-server preinstall script
+
+ -- Christophe Hurpeau <christophe@hurpeau.com>  Mon, 13 May 2013 15:20:54 +0200
+
+churpeau (1.3.1~precise~ppa5) precise; urgency=high
+
+  * error
+
+ -- Christophe Hurpeau <christophe@hurpeau.com>  Mon, 13 May 2013 15:02:21 +0200
+
+churpeau (1.3.1~precise~ppa3) precise; urgency=medium
+
+  * parsing error
+
+ -- Christophe Hurpeau <christophe@hurpeau.com>  Mon, 13 May 2013 14:30:23 +0200
+
+churpeau (1.3.1~precise~ppa2) precise; urgency=medium
+
+  * envvars umask
+
+ -- Christophe Hurpeau <christophe@hurpeau.com>  Mon, 13 May 2013 14:18:29 +0200
+
+churpeau (1.3.1~precise~ppa1) precise; urgency=medium
+
+  * ch-server, first version
+
+ -- Christophe Hurpeau <christophe@hurpeau.com>  Mon, 13 May 2013 14:15:43 +0200
+
+churpeau (1.3.1~ppa1) raring; urgency=low
+
+  * ch-server, first version
+
+ -- Christophe Hurpeau <christophe@hurpeau.com>  Mon, 13 May 2013 14:14:17 +0200
+
+churpeau (1.3~ppa1) raring; urgency=low
+
+  * ch-config, first version
+
+ -- Christophe Hurpeau <christophe@hurpeau.com>  Sun, 12 May 2013 20:00:01 +0200
+
+churpeau (1.2-2~ppa2) quantal; urgency=low
+
+  * upgrade colors
+
+ -- Christophe Hurpeau <christophe@hurpeau.com>  Tue, 02 Apr 2013 14:28:45 +0200
+
+churpeau (1.2-2~ppa1) quantal; urgency=medium
+
+  * apt-fast dependency
+
+ -- Christophe Hurpeau <christophe@hurpeau.com>  Wed, 20 Mar 2013 18:27:34 +0100
+
+churpeau (1.2-1~ppa1) quantal; urgency=medium
+
+  * debian/install
+
+ -- Christophe Hurpeau <christophe@hurpeau.com>  Wed, 20 Mar 2013 18:27:34 +0100
+
+churpeau (1.1-1~ppa1) precise; urgency=medium
+
+  * man page
+
+ -- Christophe Hurpeau <christophe@hurpeau.com>  Wed, 20 Mar 2013 18:27:34 +0100
+
+churpeau (1.0-1~ppa4) precise; urgency=medium
+
+  * upgrade.install
+
+ -- Christophe Hurpeau <christophe@hurpeau.com>  Wed, 20 Mar 2013 18:27:34 +0100
+
+churpeau (1.0-1~ppa3) precise; urgency=medium
+
+  * rules.
+
+ -- Christophe Hurpeau <christophe@hurpeau.com>  Wed, 20 Mar 2013 18:27:34 +0100
+
+churpeau (1.0-1~ppa2) precise; urgency=medium
+
+  * precise.
+
+ -- Christophe Hurpeau <christophe@hurpeau.com>  Wed, 20 Mar 2013 16:35:20 +0100
+
+churpeau (1.0-1) precise; urgency=medium
+
+  * Initial release.
+
+ -- Christophe Hurpeau <christophe@hurpeau.com>  Wed, 20 Mar 2013 15:01:20 +0100
