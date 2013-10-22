@@ -1,4 +1,0 @@
-[org.gnome.Terminal.Profile]
-default-size-columns=120
-default-size-rows=38
-scrollback-lines=5120

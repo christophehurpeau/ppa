@@ -29,6 +29,7 @@ case "$1" in
 #		gconftool --type string --set /desktop/gnome/applications/terminal/exec gnome-terminal.singleInstance
 # ==> see shema override
 #		gsettings set org.gnome.desktop.default-applications.terminal exec 'gnome-terminal.singleInstance'
+		glib-compile-schemas /usr/share/glib-2.0/schemas
 	;;
 
 	abort-upgrade|abort-remove|abort-deconfigure)
