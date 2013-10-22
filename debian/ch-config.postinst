@@ -28,15 +28,25 @@ case "$1" in
 		if [ ! -f /etc/bash.bashrc.old ]; then
 			mv /etc/bash.bashrc /etc/bash.bashrc.old
 		fi
-		wget http://static.hurpeau.com/post-install/bashrc -O /etc/bash.bashrc
+		ln -s /etc/ch.bash.bashrc /etc/bash.bashrc
+
 		if [ ! -f /etc/nanorc.old ]; then
 			mv /etc/nanorc /etc/nanorc.old
 		fi
-		wget http://static.hurpeau.com/post-install/nanorc -O /etc/nanorc
+		ln -s /etc/ch.nanorc /etc/nanorc
 
 		if [ ! -f /root/.bashrc.old ] && [ -f /root/.bashrc ]; then
 			mv /root/.bashrc /root/.bashrc.old
 		fi
+
+		for file in /home/*; do
+		    if [ -d $file ]; then
+			if [ ! -f "$file/.bashrc.old" ] && [ -f "$file/.bashrc" ]; then
+			    mv "$file/.bashrc" "$file/.basrc.old"
+			fi
+		    fi
+		done
+
 	;;
 
 	abort-upgrade|abort-remove|abort-deconfigure)

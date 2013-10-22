@@ -1,3 +1,15 @@
+churpeau (1.5.1~saucy) saucy; urgency=medium
+
+  * config bashrc and nanorc
+
+ -- Christophe Hurpeau <christophe@hurpeau.com>  Tue, 22 Oct 2013 08:46:47 +0200
+
+churpeau (1.4.12~saucy) saucy; urgency=medium
+
+  * saucy
+
+ -- Christophe Hurpeau <christophe@hurpeau.com>  Mon, 21 Oct 2013 22:17:30 +0200
+
 churpeau (1.4.11~raring) raring; urgency=low
 
   * make dependency
