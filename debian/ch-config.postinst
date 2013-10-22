@@ -28,12 +28,18 @@ case "$1" in
 		if [ ! -f /etc/bash.bashrc.old ]; then
 			mv /etc/bash.bashrc /etc/bash.bashrc.old
 		fi
-		ln -s /etc/ch.bash.bashrc /etc/bash.bashrc
+
+		if [ ! -f /etc/bash.bashrc ]; then
+			ln -s /etc/ch.bash.bashrc /etc/bash.bashrc
+		fi
 
 		if [ ! -f /etc/nanorc.old ]; then
 			mv /etc/nanorc /etc/nanorc.old
 		fi
-		ln -s /etc/ch.nanorc /etc/nanorc
+
+		if [ ! -f /etc/nanorc ]; then
+			ln -s /etc/ch.nanorc /etc/nanorc
+		fi
 
 		if [ ! -f /root/.bashrc.old ] && [ -f /root/.bashrc ]; then
 			mv /root/.bashrc /root/.bashrc.old
