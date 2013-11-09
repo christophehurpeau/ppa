@@ -1,7 +1,8 @@
 ch-common.lib /var/lib/christophe-hurpeau
-upgrade /usr/sbin
-extract /usr/sbin
-maketar /usr/sbin
-makezip /usr/sbin
-nano /usr/sbin
-open-or-focus /usr/sbin
+scripts/upgrade /usr/sbin
+scripts/extract /usr/sbin
+scripts/maketar /usr/sbin
+scripts/makezip /usr/sbin
+scripts/nano /usr/sbin
+scripts/open-or-focus /usr/sbin
+scripts/clone /usr/sbin

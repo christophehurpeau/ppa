@@ -30,6 +30,12 @@ Architecture: all
 Depends: ${shlibs:Depends}, ${misc:Depends}, bash, wmctrl
 Description: Christophe Hurpeau gnome-terminal single instance
 
+Package: ch-gnome-shell
+Section: utils
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}, gnome-shell-theme-elegance-colors
+Description: Christophe Hurpeau gnome shell config and dependencies
+
 Package: ch-server
 Section: utils
 Architecture: all
