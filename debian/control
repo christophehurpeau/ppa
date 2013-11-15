@@ -14,7 +14,7 @@ Description: Christophe Hurpeau Scripts & Config
 Package: ch-scripts
 Section: utils
 Architecture: all
-Depends: ${shlibs:Depends}, ${misc:Depends}, bash, apt-fast (>= 1.8.1~), xclip, make
+Depends: ${shlibs:Depends}, ${misc:Depends}, bash, apt-fast (>= 1.8.1~), xclip, make, htop
 Description: Christophe Hurpeau Scripts
 
 Package: ch-config
