@@ -1,5 +1,4 @@
 #!/bin/sh
-# postinst script for springbok-scripts
 #
 # see: dh_installdeb(1)
 
@@ -21,31 +20,18 @@ set -e
 
 
 case "$1" in
-	configure)
-		server=http://static.hurpeau.com/post-install
+    configure)
+        # installing openlocalfile://
+        xdg-mime default openlocalfile.desktop x-scheme-handler/openlocalfile
+    ;;
 
-		servername=`cat /etc/hostname`
-		adminmail=`cat /etc/adminmail`
+    abort-upgrade|abort-remove|abort-deconfigure)
+    ;;
 
-		cd /etc/monit/
-		if [ ! -f /etc/monit/monitrc.defaults ]; then
-			cp monitrc monitrc.defaults
-		fi
-		wget $server/monit/monitrc -O monitrc
-		sed -i "s/sv\.hurpeau\.com/$servername/g" monitrc
-		sed -i "s/christophe@hurpeau\.com/$adminmail/g" monitrc
-		wget $server/monit/apache -O conf.d/apache
-		wget $server/monit/mysql -O conf.d/mysql
-		service monit restart
-	;;
-
-	abort-upgrade|abort-remove|abort-deconfigure)
-	;;
-
-	*)
-			echo "postinst called with unknown argument \`$1'" >&2
-			exit 1
-	;;
+    *)
+            echo "postinst called with unknown argument \`$1'" >&2
+            exit 1
+    ;;
 esac
 
 # dh_installdeb will replace this with shell code automatically

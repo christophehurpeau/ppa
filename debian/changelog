@@ -1,3 +1,33 @@
+churpeau (1.7.4~saucy) saucy; urgency=high
+
+  * fix openlocalfile
+
+ -- Christophe Hurpeau <christophe@hurpeau.com>  Wed, 22 Jan 2014 14:39:38 +0100
+
+churpeau (1.7.3~saucy) saucy; urgency=high
+
+  * fix postinst line ending char
+
+ -- Christophe Hurpeau <christophe@hurpeau.com>  Tue, 21 Jan 2014 21:56:01 +0100
+
+churpeau (1.7.2~saucy) saucy; urgency=low
+
+  * missing xdg-utils dependency
+
+ -- Christophe Hurpeau <christophe@hurpeau.com>  Tue, 21 Jan 2014 02:12:07 +0100
+
+churpeau (1.7.1~saucy) saucy; urgency=low
+
+  * ch-open-local-file missing description
+
+ -- Christophe Hurpeau <christophe@hurpeau.com>  Sat, 18 Jan 2014 00:44:12 +0100
+
+churpeau (1.7.0~saucy) saucy; urgency=low
+
+  * ch-open-local-file
+
+ -- Christophe Hurpeau <christophe@hurpeau.com>  Sat, 18 Jan 2014 00:27:33 +0100
+
 churpeau (1.6.1~saucy) saucy; urgency=medium
 
   * config

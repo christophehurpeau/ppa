@@ -1,0 +1,11 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=Open local files from browsers
+GenericName=Open local files
+Comment=Open local files from browsers
+Exec=/usr/bin/openlocalfile %u
+Terminal=false
+Type=Application
+MimeType=x-scheme-handler/openlocalfile;
+Categories=TextEditor;Development;Utility;

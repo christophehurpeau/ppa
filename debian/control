@@ -47,3 +47,15 @@ Section: utils
 Architecture: all
 Depends: ${shlibs:Depends}, ${misc:Depends}, libapache2-mod-php5, php5 (>= 5.4), php5-cli, php5-curl, php5-gd, php5-imagick, php5-mcrypt, php5-mysql, php5-sqlite, php5-xmlrpc, mysql-client, mysql-server
 Description: Christophe Hurpeau apache and php and mysql dependencies and config
+
+Package: ch-launchpad
+Section: utils
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}, bash, packaging-dev
+Description: http://developer.ubuntu.com/packaging/html/getting-set-up.html
+
+Package: ch-open-local-file
+Section: utils
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}, bash, xdg-utils
+Description: openlocalfile:// protocol
