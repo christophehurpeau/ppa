@@ -6,12 +6,12 @@ sudoIfNotRoot
 # sudo apt-get update && sudo apt-get dist-upgrade && sudo apt-get autoremove --purge && sudo apt-get autoclean
 which monit && service monit stop
 displayTitle "Updating"
-apt-fast update -qq
+apt-get update -qq
 displayTitle "Upgrading"
-apt-fast dist-upgrade
+apt-get dist-upgrade
 if [ $? = 0 ]; then
 	displayTitle "Cleaning"
-	apt-fast autoremove --purge && apt-fast autoclean
+	apt-get autoremove --purge && apt-fast autoclean
 	displayTitle "Updating pecl"
 	which pecl && pecl upgrade-all
 	displayTitle "Updating pear"

@@ -1,3 +1,21 @@
+churpeau (1.7.8~trusty) trusty; urgency=medium
+
+  * fix
+
+ -- Christophe Hurpeau <christophe@hurpeau.com>  Sun, 20 Apr 2014 18:50:43 +0200
+
+churpeau (1.7.7~trusty) trusty; urgency=medium
+
+  * remove apt-fast and fix warnings
+
+ -- Christophe Hurpeau <christophe@hurpeau.com>  Sun, 20 Apr 2014 18:35:09 +0200
+
+churpeau (1.7.6~trusty) trusty; urgency=medium
+
+  * first trusty release
+
+ -- Christophe Hurpeau <christophe@hurpeau.com>  Sun, 20 Apr 2014 17:29:22 +0200
+
 churpeau (1.7.4~saucy) saucy; urgency=high
 
   * fix openlocalfile

@@ -1,9 +1,7 @@
 Installation :
 
 ```
-sudo apt-get install -y python-software-properties && sudo add-apt-repository ppa:apt-fast/stable
-sudo apt-add-repository ppa:christophe-hurpeau
-sudo apt-get update
+sudo apt-get install -y python-software-properties && sudo apt-add-repository ppa:christophe-hurpeau && sudo apt-get update
 ```
 
 Packages :
