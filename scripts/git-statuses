@@ -1,0 +1,39 @@
+#!/bin/sh
+
+. /var/lib/christophe-hurpeau/ch-common.lib
+
+current=`pwd`
+
+if [ $# -eq 0 ]; then
+    ARGS="."
+else
+    ARGS=$@
+fi;
+
+for i in $ARGS; do
+    for gitdir in `find $i -name .git`; do
+        dir=$(dirname $gitdir)
+	cd $current/$dir
+        #git fetch >/dev/null 2>&1
+        warnings=""
+        status=`git status -s`
+        fullstatus=`git status`
+        `echo "$fullstatus" | grep -sq "Your branch is ahead"`
+        if [ $? = 0 ]; then
+            warnings="$warnings Unpushed"
+        fi
+        `echo "$fullstatus" | grep -sq "Your branch is behind"`
+        if [ $? = 0 ]; then #  is behind
+            warnings="$warnings Unmerged"
+        fi
+
+        if [ "$status" != ""  ] || [ "$warnings" != "" ]; then
+            displayTitle "$dir"
+            if [ "$warnings" != "" ]; then
+                displayWarning $warnings
+            fi
+            echo "$status"
+            echo
+        fi
+    done
+done

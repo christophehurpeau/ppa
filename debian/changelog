@@ -1,3 +1,9 @@
+churpeau (1.7.9~trusty) trusty; urgency=medium
+
+  * git-statuses script
+
+ -- Christophe Hurpeau <christophe@hurpeau.com>  Mon, 21 Apr 2014 17:29:40 +0200
+
 churpeau (1.7.8~trusty) trusty; urgency=medium
 
   * fix

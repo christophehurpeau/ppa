@@ -1,8 +1,9 @@
 ch-common.lib /var/lib/christophe-hurpeau
 scripts/upgrade /usr/sbin
-scripts/extract /usr/sbin
-scripts/maketar /usr/sbin
-scripts/makezip /usr/sbin
+scripts/extract /usr/bin
+scripts/maketar /usr/bin
+scripts/makezip /usr/bin
 scripts/nano /usr/sbin
 scripts/open-or-focus /usr/sbin
 scripts/clone /usr/sbin
+scripts/git-statuses /usr/bin
