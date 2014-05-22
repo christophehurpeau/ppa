@@ -11,7 +11,7 @@ displayTitle "Upgrading"
 apt-get dist-upgrade
 if [ $? = 0 ]; then
 	displayTitle "Cleaning"
-	apt-get autoremove --purge && apt-fast autoclean
+	apt-get autoremove --purge && apt-get autoclean
 	displayTitle "Updating pecl"
 	which pecl && pecl upgrade-all
 	displayTitle "Updating pear"

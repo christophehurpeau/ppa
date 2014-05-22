@@ -1,3 +1,15 @@
+churpeau (1.7.10~trusty) trusty; urgency=medium
+
+  * fix upgrade script
+
+ -- Christophe Hurpeau <christophe@hurpeau.com>  Thu, 22 May 2014 21:36:45 +0200
+
+churpeau (1.7.9~saucy) saucy; urgency=medium
+
+  * saucy
+
+ -- Christophe Hurpeau <christophe@hurpeau.com>  Mon, 21 Apr 2014 17:34:28 +0200
+
 churpeau (1.7.9~trusty) trusty; urgency=medium
 
   * git-statuses script
