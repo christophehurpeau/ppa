@@ -4,4 +4,6 @@ url=$1
 file=${url#openlocalfile*//}
 path=`echo $file | cut -d? -f 1`
 line=`echo $file | cut -d? -f 2`
-subl $path:$line
+column=`echo $line | cut -d: -f 2`
+line=`echo $line | cut -d: -f 1`
+subl $path:$line:$column

@@ -8,7 +8,7 @@ Build-Depends: debhelper (>= 7.0.50~)
 Package: churpeau
 Section: utils
 Architecture: all
-Depends: ${misc:Depends}, bash, ch-scripts, ch-config, ch-gnome-terminal
+Depends: ${misc:Depends}, bash, ch-scripts, ch-config, ch-gnome-terminal, nautilus-open-terminal
 Description: Christophe Hurpeau Scripts & Config
 
 Package: ch-scripts

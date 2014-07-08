@@ -1,3 +1,9 @@
+churpeau (1.7.11~trusty) trusty; urgency=medium
+
+  * openlocalfile protocol supports column number
+
+ -- Christophe Hurpeau <christophe@hurpeau.com>  Wed, 09 Jul 2014 01:33:02 +0200
+
 churpeau (1.7.10~trusty) trusty; urgency=medium
 
   * fix upgrade script
