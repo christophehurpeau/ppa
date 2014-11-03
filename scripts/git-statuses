@@ -13,25 +13,25 @@ fi;
 for i in $ARGS; do
     for gitdir in `find $i -name .git`; do
         dir=$(dirname $gitdir)
-	cd $current/$dir
+    cd $current/$dir
         #git fetch >/dev/null 2>&1
         warnings=""
-        status=`git status -s`
-        fullstatus=`git status`
-        `echo "$fullstatus" | grep -sq "Your branch is ahead"`
+        status=`git -c color.status=always status --short --branch`
+        `echo "$status" | grep -sq "ahead"`
         if [ $? = 0 ]; then
             warnings="$warnings Unpushed"
         fi
-        `echo "$fullstatus" | grep -sq "Your branch is behind"`
+        `echo "$status" | grep -sq "behind"`
         if [ $? = 0 ]; then #  is behind
-            warnings="$warnings Unmerged"
+            warnings="$warnings Behind"
         fi
 
-        if [ "$status" != ""  ] || [ "$warnings" != "" ]; then
+        trimStatus=`echo "$status" | sed -r 's/\x1B\[([0-9]{1,3}((;[0-9]{1,3})*)?)?[m|K]//g' | sed -e 's/^ *//' -e 's/ *$//'`
+        if [ "$trimStatus" != "## master...origin/master"  ] || [ "$warnings" != "" ]; then
             displayTitle "$dir"
-            if [ "$warnings" != "" ]; then
-                displayWarning $warnings
-            fi
+#            if [ "$warnings" != "" ]; then
+#                displayWarning $warnings
+#            fi
             echo "$status"
             echo
         fi
