@@ -1,3 +1,15 @@
+churpeau (1.7.12~trusty) trusty; urgency=medium
+
+  * update git-statuses
+
+ -- Christophe Hurpeau <christophe@hurpeau.com>  Tue, 04 Nov 2014 22:36:21 +0100
+
+churpeau (1.7.12~utopic) utopic; urgency=medium
+
+  * utopic
+
+ -- Christophe Hurpeau <christophe@hurpeau.com>  Tue, 04 Nov 2014 22:33:52 +0100
+
 churpeau (1.7.11~trusty) trusty; urgency=medium
 
   * openlocalfile protocol supports column number
