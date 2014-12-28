@@ -1,3 +1,9 @@
+churpeau (1.7.14~trusty) trusty; urgency=medium
+
+  * fix ch-config
+
+ -- Christophe Hurpeau <christophe@hurpeau.com>  Sun, 28 Dec 2014 18:44:39 +0100
+
 churpeau (1.7.12~trusty) trusty; urgency=medium
 
   * update git-statuses

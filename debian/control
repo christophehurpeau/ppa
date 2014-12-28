@@ -20,7 +20,7 @@ Description: Christophe Hurpeau Scripts
 Package: ch-config
 Section: utils
 Architecture: all
-Depends: ${misc:Depends}, bash, zsh
+Depends: ${misc:Depends}, bash, zsh, libglib2.0-dev
 Description: Christophe Hurpeau config files (bashrc, nanorc)
 
 Package: ch-gnome-terminal
