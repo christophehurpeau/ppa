@@ -1,3 +1,9 @@
+churpeau (1.7.14~vivid) vivid; urgency=medium
+
+  * vivid
+
+ -- Christophe Hurpeau <christophe@hurpeau.com>  Sun, 26 Apr 2015 12:04:17 +0200
+
 churpeau (1.7.14~trusty) trusty; urgency=medium
 
   * fix ch-config
