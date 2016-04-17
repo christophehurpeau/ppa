@@ -16,5 +16,4 @@ if [ $USER != 'root' ]; then
 	fi
 fi
 
-/usr/bin/nano $*
-
+/bin/nano $*

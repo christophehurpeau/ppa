@@ -17,7 +17,7 @@ config_email (){
 	hostname=`cat /etc/hostname`
 	local defaultContactmail
 	local defaultAdminmail
-	
+
 	if [ -f /etc/contactmail ]; then defaultContactmail=`cat /etc/contactmail`; fi
 	if [ "$defaultContactmail" = "" ]; then defaultContactmail="contact@$hostname"; fi
 	read -p "Please provide contact mail: [$defaultContactmail] " contactmail
@@ -46,7 +46,7 @@ case "$1" in
 
 		#http://www.ducea.com/2006/08/07/how-to-change-the-hostname-of-a-linux-system/
 		echo $hostname > /etc/hostname
-		sudo service hostname start
+		/etc/init.d/hostname.sh start
 
 		config_email
 	;;
