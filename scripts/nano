@@ -1,19 +1,18 @@
 #!/bin/sh
 
-if [ $USER != 'root' ]; then
-	if [ -f $1 ]; then
-		if [ ! -w $1 ]; then
-			echo "This file is not writable !"
-			read smthg
-#			. /var/lib/christophe-hurpeau/ch-common.lib
-#			args=$*
-#			editWithSudo= $(yesOrNo "This file is not writable. Do you want edit it with sudo ?" 'y')
-#			if [ editWithSudo = 'y' ]; then
-#				sudo /usr/bin/nano $args
-#				exit $?
-#			fi
-		fi
-	fi
-fi
+export PATH_TO_NANO=$(which nano)
+function nano() {
+  if [ $USER != 'root' ]; then
+    if [ -f $1 ]; then
+      if [ ! -w $1 ]; then
+        read -p "This file is not writable! Do you want to sudo (y/N) " smthg
+        if [ "$smthg" != 'y' ]; then
+          return;
+        fi
+        sudo $(echo $PATH_TO_NANO) $*
+      fi
+    fi
+  fi
 
-/bin/nano $*
+  $(echo $PATH_TO_NANO) $*
+}
