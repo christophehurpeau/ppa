@@ -17,19 +17,19 @@ checkNotRoot(){
 
 # Yellow bold
 displayTitle(){
-	echo "\033[33m> \033[1m" $1 "\033[0m"
+	echo -e "\033[33m> \033[1m" $1 "\033[0m"
 }
 # Yellow 
 displaySubtitle(){
-	echo "\033[33m» " $1 "\033[0m"
+	echo -e "\033[33m» " $1 "\033[0m"
 }
 # Purple
 displayWarning(){
-	echo "\033[35m" $1 "\033[0m"
+	echo -e "\033[35m" $1 "\033[0m"
 }
 # Green
 displaySuccess(){
-	echo "\033[32m" $1 "\033[0m"
+	echo -e "\033[32m" $1 "\033[0m"
 }
 
 
