@@ -1,4 +1,0 @@
-#!/bin/bash
-
-# http://tldp.org/LDP/abs/html/sample-bashrc.html
-tar cvzf "${1%%/}.tar.gz"  "${1%%/}/"

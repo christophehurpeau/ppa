@@ -1,0 +1,17 @@
+#!/bin/sh
+
+function open-or-focus()
+{
+	existingProcess=`pgrep -xc $1`
+	if [ $existingProcess = 0 ]; then
+	$*
+	else
+	wmctrl -xa $1
+	fi
+}
+
+if [ $# = 0 ]; then
+	open-or-focus gnome-terminal $*
+else
+	gnome-terminal --tab $*
+fi

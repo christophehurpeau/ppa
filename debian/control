@@ -8,19 +8,13 @@ Build-Depends: debhelper (>= 7.0.50~)
 Package: churpeau
 Section: utils
 Architecture: all
-Depends: ${misc:Depends}, bash, ch-scripts, ch-config, ch-gnome-terminal, nautilus-open-terminal
+Depends: ${misc:Depends}, bash, ch-config, ch-gnome-terminal, xclip, make, htop
 Description: Christophe Hurpeau Scripts & Config
-
-Package: ch-scripts
-Section: utils
-Architecture: all
-Depends: ${misc:Depends}, bash, xclip, make, htop
-Description: Christophe Hurpeau Scripts
 
 Package: ch-config
 Section: utils
 Architecture: all
-Depends: ${misc:Depends}, bash, zsh, libglib2.0-dev
+Depends: ${misc:Depends}, bash, zsh
 Description: Christophe Hurpeau config files (bashrc, nanorc)
 
 Package: ch-gnome-terminal
@@ -29,23 +23,11 @@ Architecture: all
 Depends: ${misc:Depends}, bash, wmctrl
 Description: Christophe Hurpeau gnome-terminal single instance
 
-Package: ch-gnome-shell
-Section: utils
-Architecture: all
-Depends: ${misc:Depends}, gnome-shell-theme-elegance-colors
-Description: Christophe Hurpeau gnome shell config and dependencies
-
 Package: ch-server
 Section: utils
 Architecture: all
-Depends: ${misc:Depends}, bash, git, unzip, zip, ch-scripts, ch-config, monit, munin-node, fail2ban
+Depends: ${misc:Depends}, bash, git, unzip, zip, ch-config, monit, munin-node, fail2ban
 Description: Christophe Hurpeau server dependencies
-
-Package: ch-apache-and-php-and-mysql
-Section: utils
-Architecture: all
-Depends: ${misc:Depends}, libapache2-mod-php5, php5 (>= 5.4), php5-cli, php5-curl, php5-gd, php5-imagick, php5-mcrypt, php5-mysql, php5-sqlite, php5-xmlrpc, mysql-client, mysql-server
-Description: Christophe Hurpeau apache and php and mysql dependencies and config
 
 Package: ch-launchpad
 Section: utils

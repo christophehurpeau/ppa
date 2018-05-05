@@ -1,3 +1,3 @@
-config/ch.bash.bashrc /etc
-config/ch.nanorc /etc
-config/30_ch_default_settings.gschema.override /usr/share/glib-2.0/schemas/
+ch-config/ch.bash.bashrc /etc
+ch-config/ch.nanorc /etc
+ch-config/30_ch_default_settings.gschema.override /usr/share/glib-2.0/schemas/

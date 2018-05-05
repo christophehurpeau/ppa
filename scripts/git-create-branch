@@ -1,7 +1,0 @@
-#!/bin/bash
-
-. /var/lib/christophe-hurpeau/ch-common.lib
-
-read -p 'Write your message: ' msg
-new_branch=${msg//[ :\/]/-}
-$(git checkout -b ${new_branch})

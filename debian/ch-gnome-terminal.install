@@ -1,2 +1,2 @@
-gnome-terminal/gnome-terminal.singleInstance /usr/bin
-gnome-terminal/30_ch_gnome-terminal_settings.gschema.override /usr/share/glib-2.0/schemas/
+ch-gnome-terminal/gnome-terminal.singleInstance /usr/bin
+ch-gnome-terminal/30_ch_gnome-terminal_settings.gschema.override /usr/share/glib-2.0/schemas/

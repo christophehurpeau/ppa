@@ -1,4 +1,0 @@
-#!/bin/sh
-
-sudo rsync --delete -auEAv --exclude '*~' "$1" "$2"
-

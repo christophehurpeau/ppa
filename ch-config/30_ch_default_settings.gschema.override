@@ -1,0 +1,17 @@
+[org.gnome.desktop.background]
+picture-uri = 'file:///usr/share/backgrounds/Halifax_Sunset_by_Vlad_Drobinin.jpg'
+
+[org.gnome.desktop.interface]
+font-name="Ubuntu 10"
+document-font-name="Ubuntu 10"
+monospace-font-name="Ubuntu Mono 12"
+clock-show-date=true
+clock-show-seconds=true
+
+[org.gnome.desktop.wm.preferences]
+titlebar-font='Ubuntu Bold 10'
+action-middle-click-titlebar = 'lower'
+
+[org.gnome.nautilus.icon-view]
+default-zoom-level = 'small'
+

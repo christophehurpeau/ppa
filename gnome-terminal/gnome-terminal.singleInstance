@@ -1,7 +1,0 @@
-#!/bin/sh
-
-if [ $# = 0 ]; then
-	open-or-focus gnome-terminal $*
-else
-	gnome-terminal $* --tab # doesn't work. gnome-terminal --tab --tab creates a window with two tabs
-fi

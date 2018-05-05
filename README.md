@@ -16,9 +16,7 @@ Packages :
 
 - ch-config
 - ch-gnome-terminal
-- ch-scripts
 - ch-server
-- ch-apache-and-php-and-mysql (server configs and dependencies)
 
 
 Also in this PPA:
