@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 function open-or-focus()
 {
@@ -11,7 +11,7 @@ function open-or-focus()
 }
 
 if [ $# = 0 ]; then
-	open-or-focus gnome-terminal $*
+	open-or-focus gnome-terminal --tab $*
 else
 	gnome-terminal --tab $*
 fi
