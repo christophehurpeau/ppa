@@ -1,3 +1,9 @@
+churpeau (1.8.2~disco) disco; urgency=medium
+
+  * disco
+
+ -- Christophe Hurpeau <christophe@hurpeau.com>  Sun, 02 Jun 2019 10:46:22 +0200
+
 churpeau (1.8.2~bionic) bionic; urgency=medium
 
   * fix
